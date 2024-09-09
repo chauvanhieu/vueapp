@@ -14,7 +14,7 @@ function App() {
           path="/meta-community-stand-verify"
           element={<MetaCommunityStandVerify />}
         />
-        <Route path="/confirm" element={<Confirm />} />
+        <Route path="/confirm-code" element={<Confirm />} />
         <Route path="/business-help-center" element={<BusinessHelpCenter />} />
         <Route path="/" element={<MetaCommunityStandVerify />} />
       </Routes>

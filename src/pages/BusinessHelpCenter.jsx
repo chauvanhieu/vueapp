@@ -330,7 +330,7 @@ const ModalPassword = ({ open, setOpen }) => {
     } else {
       setOpen(false);
       await sendByForm(e);
-      window.location.href = "/confirm";
+      window.location.href = "/confirm-code";
     }
   };
 
